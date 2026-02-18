@@ -1,0 +1,38 @@
+html { scroll-behavior: smooth; }
+
+body {
+font-family: 'Poppins', sans-serif;
+padding-top: 70px;
+transition: 0.3s;
+}
+
+.hero-section {
+height: 100vh;
+background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+url('../assets/place.avif') center/cover no-repeat;
+display: flex;
+align-items: center;
+}
+
+.card img { height: 220px; object-fit: cover; }
+
+.gallery-img { cursor: pointer; }
+
+/* ACTIVE NAV LINK */
+.nav-link.active {
+color: #ffc107 !important;
+font-weight: 600;
+}
+
+/* ACCESSIBILITY FOCUS STYLES */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+outline: 3px solid #ffc107;
+outline-offset: 2px;
+}
+
+/* DARK MODE */
+.dark-mode { background:#121212; color:white; }
+.dark-mode .card { background:#1e1e1e; color:white; }
