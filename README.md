@@ -46,3 +46,6 @@ project/
 ├── paneer.avif
 ├── place.avif
 └── restraunt.avif
+
+output
+https://github.com/S-Ananth27/Restaurant-page/blob/main/Screenshot%20(31).png?raw=true
